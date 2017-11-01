@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "Quick React SPA for a school project.",
   "main": "index.js",
+  "engines": "7.10.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
