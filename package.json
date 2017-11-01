@@ -1,0 +1,37 @@
+{
+  "name": "bank",
+  "version": "0.0.1",
+  "description": "Quick React SPA for a school project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylecarter/bank.git"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "single",
+    "page",
+    "application"
+  ],
+  "author": "Kyle A. Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kylecarter/bank/issues"
+  },
+  "homepage": "https://github.com/kylecarter/bank#readme",
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "next": "^4.1.4",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "underscore": "^1.8.3"
+  }
+}
