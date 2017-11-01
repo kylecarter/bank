@@ -38,9 +38,6 @@ var _underscore2 = _interopRequireDefault(_underscore);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/mnt/d/Sites/bank/components/accounts/account.js';
-
-
 var _ = _underscore2.default;
 
 var Account = function (_React$Component) {
@@ -58,42 +55,7 @@ var Account = function (_React$Component) {
   (0, _createClass3.default)(Account, [{
     key: 'render',
     value: function render() {
-      return _react2.default.createElement('li', { className: 'panel panel-primary', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      }, _react2.default.createElement('header', { className: 'panel-heading', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        }
-      }, _react2.default.createElement('h3', { className: 'panel-title', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        }
-      }, this.state.type), _react2.default.createElement('strong', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }, 'Accoung number: ', this.state.number)), _react2.default.createElement('div', { className: 'panel-body', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      }, this.state.limit ? _react2.default.createElement('p', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        }
-      }, 'Credit Limit: ', this.state.limit) : '', _react2.default.createElement('p', {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        }
-      }, 'Balance: ', this.state.balance), _react2.default.createElement('a', { href: '/me/transactions', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        }
-      }, 'See Transactions')));
+      return _react2.default.createElement('li', { className: 'panel panel-primary' }, _react2.default.createElement('header', { className: 'panel-heading' }, _react2.default.createElement('h3', { className: 'panel-title' }, this.state.type), _react2.default.createElement('strong', null, 'Accoung number: ', this.state.number)), _react2.default.createElement('div', { className: 'panel-body' }, this.state.limit ? _react2.default.createElement('p', null, 'Credit Limit: ', this.state.limit) : '', _react2.default.createElement('p', null, 'Balance: ', this.state.balance), _react2.default.createElement('a', { href: '/me/transactions' }, 'See Transactions')));
     }
   }]);
 
@@ -101,4 +63,3 @@ var Account = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Account;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvYWNjb3VudHMvYWNjb3VudC5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIkhlYWQiLCJ1bmRlcnNjb3JlIiwiXyIsIkFjY291bnQiLCJwcm9wcyIsInN0YXRlIiwiZXh0ZW5kIiwidHlwZSIsIm51bWJlciIsImxpbWl0IiwiYmFsYW5jZSIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPOzs7O0FBQ1AsQUFBTzs7OztBQUNQLEFBQU87Ozs7Ozs7OztBQUVQLElBQUEsQUFBTSxBQUFJOztJLEFBRVc7bUNBRW5COzttQkFBQSxBQUFhLE9BQVE7d0NBQUE7O2tJQUVuQjs7VUFBQSxBQUFLLFFBQVEsRUFBQSxBQUFFLE9BQUYsQUFBVSxJQUZKLEFBRW5CLEFBQWEsQUFBYztXQUM1Qjs7Ozs7NkJBRVEsQUFDUDs2QkFBUSxjQUFBLFFBQUksV0FBSixBQUFjO29CQUFkO3NCQUFBLEFBQ047QUFETTtPQUFBLGtCQUNOLGNBQUEsWUFBUSxXQUFSLEFBQWtCO29CQUFsQjtzQkFBQSxBQUNFO0FBREY7eUJBQ0UsY0FBQSxRQUFJLFdBQUosQUFBYztvQkFBZDtzQkFBQSxBQUE4QjtBQUE5QjtjQUE4QixBQUFLLE1BRHJDLEFBQ0UsQUFBeUMsQUFDekMsdUJBQUEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLFNBQTBCLHlCQUFBLEFBQUssTUFIM0IsQUFDTixBQUVFLEFBQXFDLEFBRXZDLDBCQUFBLGNBQUEsU0FBSyxXQUFMLEFBQWU7b0JBQWY7c0JBQUEsQUFDSTtBQURKO2NBQ0ksQUFBSyxNQUFMLEFBQVcsd0JBQVEsY0FBQTs7b0JBQUE7c0JBQUE7QUFBQTtBQUFBLE9BQUEsRUFBbUIsdUJBQUEsQUFBSyxNQUEzQyxBQUFtQixBQUE4QixTQURyRCxBQUNtRSxBQUNqRSxvQkFBQSxjQUFBOztvQkFBQTtzQkFBQTtBQUFBO0FBQUEsU0FBYyxrQkFBQSxBQUFLLE1BRnJCLEFBRUUsQUFBeUIsQUFDekIsMEJBQUEsY0FBQSxPQUFHLE1BQUgsQUFBUTtvQkFBUjtzQkFBQTtBQUFBO1NBUkosQUFBUSxBQUtOLEFBR0UsQUFHTDs7Ozs7RUFuQmtDLGdCQUFNLEE7O2tCQUF0QixBIiwiZmlsZSI6ImFjY291bnQuanMiLCJzb3VyY2VSb290IjoiL21udC9kL1NpdGVzL2JhbmsifQ==
