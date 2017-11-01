@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Quick React SPA for a school project.",
   "main": "index.js",
-  "engines": "7.10.1",
+  "engines": {
+    "node": "7.10.1"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
